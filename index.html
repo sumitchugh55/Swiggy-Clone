@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            margin-left: 10px;
+            padding: 0;
+        }
+        .first{
+            display: flex;
+
+        }
+        #f-11{
+            flex-basis: 60%;
+            
+        }
+        #f-11 img{
+            margin-top: 20px;
+            margin-left: 20px;
+            width: 200px;
+            height: 100px;
+        }
+        #f-21{
+            flex-basis: 40%;
+            
+        }
+        input{
+            width: 524px;
+            height: 44px;
+        }
+        .button{
+            
+            display: flex;
+        }
+        #btn1{
+            flex-basis: 65%;
+            
+        }
+        .btn2 button{
+            background-color: black;
+            color: white;
+            margin-top: 42px;
+            width: 80px;
+        }
+        #f-11 p{
+            color:grey;
+        }
+        img{
+  width: 484px;
+  height: 600px;
+  background-image: cover;
+        }
+        #find{
+            background-color: rgb(254, 141, 3);
+            color: white;
+            border: none;
+            width: 100px;
+            height: 48px;
+        }
+        h1{
+            margin-top: 50px;
+        }
+        #l{
+            background-color: white;
+            border: none;
+            color: black;
+        }
+        #s{
+            width: 72px;
+            height: 35px;
+        }
+        .second
+        {
+            height: 300px;
+            width:100%;
+            background-color: #2b1e16;
+            display: flex;
+            justify-content: center;
+            
+        }
+        .seconds{
+            flex-basis: 33%;
+           
+        }
+        .seconds img{
+            width: 170px;
+            height: 195px;
+        }
+        h3{
+            color: white;
+        }
+        .second p{
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- First slide
+     -->
+     <div class="first">
+        <div class="f" id="f-11">
+            <div class="button">
+                <div id="btn1">
+                    <img src="./download.png" alt="">
+                </div>
+                <div class="btn2">
+                    
+                    <button id="l">Login</button>
+                    <button id="s">SignUp</button>
+                
+               
+                </div>
+                </div>
+                <h1>Movie Marathon?</h1><br><br>
+            <p>Order Food From favourite Restaurants near You</p><br><br>
+            <input type="text" placeholder="Enter Your Delivery Location">
+            <button id="find">FindFood</button><br><br>
+            <p>POPULAR CITIES IN INDIA</p><br><br>
+            <h5>Ahmedabad Banglore Chennai Hyderabad Kolkata Mumbai Pune & more</h5>
+            
+            
+        </div>
+        <div class="f" id="f-21">  <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq" alt=""></div>
+     </div>
+  <!-- 2nd section  -->
+  <div class="second">
+    <div class="seconds" id="s-1">
+        <img src="./hand1.png" alt="" >
+        <center>
+        <h3>No Minimum Order</h3>
+        <p>Order in for yourself or for the growth,with no restrictions on order value</p>
+    </center>
+    </div>
+    <div class="seconds" id="s-2">
+        <img src="./2.png" alt="">
+        <center>
+        <h3>Live Order tracking</h3>
+    </center>
+
+        <p>Know where your order is at all times,from the restaurent to your doorstep</p>
+    </div>
+    <div class="seconds" id="s-3">
+        <img src="./3.png" alt="">
+        <center>
+        <h3>Lightening-Fast Delivery</h3>
+      
+        <p>Experiencing Swiggy's superfast delivery for food delivered frsh & on time</p>
+    </center>
+    </div>
+
+  </div>
+</body>
+</html>
